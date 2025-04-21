@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "media": {
+    "desktopMedia": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
@@ -27,6 +27,14 @@
       "repeatable": false,
       "component": "cta.cta-button",
       "required": false
+    },
+    "mobileMedia": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

@@ -302,8 +302,7 @@ export interface FinancialLieracyMattersFinancialLiteracyMatters
         },
         number
       >;
-    videoTeaser: Schema.Attribute.Component<'teaser.video-teaser', true> &
-      Schema.Attribute.Required &
+    teaser: Schema.Attribute.Component<'teaser.teaser-with-image', true> &
       Schema.Attribute.SetMinMax<
         {
           max: 3;
@@ -446,8 +445,9 @@ export interface TeaserTeaserWithImage extends Struct.ComponentSchema {
   attributes: {
     cta: Schema.Attribute.Component<'cta.cta-button', false>;
     description: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    desktopMedia: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
-    media: Schema.Attribute.Media<'images'>;
+    mobileMedia: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
   };
 }
 
