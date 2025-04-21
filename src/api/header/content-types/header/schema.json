@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "desktopLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobileLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "redirectionLogoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu",
+      "max": 5
+    },
+    "headerLinkableCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta-button",
+      "required": true
+    },
+    "headerActionCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.action-button",
+      "required": true
+    }
+  }
+}

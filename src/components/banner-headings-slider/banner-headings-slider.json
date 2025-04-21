@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_banner_headings_slider_banner_headings_sliders",
+  "info": {
+    "displayName": "Banner Headings Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

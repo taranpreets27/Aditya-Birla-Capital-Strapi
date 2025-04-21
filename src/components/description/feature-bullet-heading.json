@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_description_feature_bullet_headings",
+  "info": {
+    "displayName": "Feature Bullet Heading"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

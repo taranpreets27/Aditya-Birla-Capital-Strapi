@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_style_heading_style_headings",
+  "info": {
+    "displayName": "Style Heading"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Black",
+        "Red"
+      ],
+      "default": "Black"
+    },
+    "breakLine": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_card_content_cards",
+  "info": {
+    "displayName": "Content card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

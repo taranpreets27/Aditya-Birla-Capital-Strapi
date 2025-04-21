@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_card_card_with_icons",
+  "info": {
+    "displayName": "Card with icon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_download_app_download_app_components",
+  "info": {
+    "displayName": "Download App Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image",
+      "max": 2,
+      "required": false
+    },
+    "descriptionCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teaser.teaser-without-image",
+      "required": true
+    }
+  }
+}

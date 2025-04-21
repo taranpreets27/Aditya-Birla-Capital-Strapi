@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutFinancialLiteracySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-financial-literacy.about-our-financial-component"
+    },
+    "financialLiteracyMattersSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "financial-lieracy-matters.financial-literacy-matters"
+    },
+    "advantagesProgramSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "advantages-program.advantages-program-component"
+    },
+    "roadMapWealthSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "roadmap-wealth.roadmap-wealth-component"
+    },
+    "platformResourcesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "platform-resources.platform-resources-component"
+    },
+    "downloadAppSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "download-app.download-app-component"
+    },
+    "faqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.faq-component"
+    }
+  }
+}

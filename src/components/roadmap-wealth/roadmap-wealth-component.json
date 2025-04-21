@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_roadmap_wealth_roadmap_wealth_components",
+  "info": {
+    "displayName": "Roadmap Wealth Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "style-heading.style-heading",
+      "max": 3,
+      "required": true,
+      "min": 1
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.image"
+    },
+    "roadmapCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.accordion",
+      "max": 4,
+      "min": 1,
+      "required": true
+    }
+  }
+}

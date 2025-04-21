@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_banner_component_banner_components",
+  "info": {
+    "displayName": "Banner Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headingSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "heading.heading",
+      "max": 3
+    },
+    "sliderHeadingsSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner-headings-slider.banner-headings-slider",
+      "min": 1
+    },
+    "descriptionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "description.description"
+    },
+    "bannerCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.action-button"
+    }
+  }
+}

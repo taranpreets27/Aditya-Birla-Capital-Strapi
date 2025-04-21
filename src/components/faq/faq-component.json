@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_faq_faq_components",
+  "info": {
+    "displayName": "FAQ Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "style-heading.style-heading",
+      "max": 3,
+      "required": true,
+      "min": 1
+    },
+    "faqAccordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.accordion",
+      "required": true,
+      "min": 1
+    }
+  }
+}

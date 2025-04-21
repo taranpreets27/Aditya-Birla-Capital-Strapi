@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cta_cta_buttons",
+  "info": {
+    "displayName": "CTA Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_card_media_cards",
+  "info": {
+    "displayName": "Media card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image",
+      "max": 2,
+      "required": false
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

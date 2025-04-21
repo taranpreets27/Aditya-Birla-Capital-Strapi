@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_financial_lieracy_matters_financial_literacy_matters",
+  "info": {
+    "displayName": "Financial Literacy Matters Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "style-heading.style-heading",
+      "required": true,
+      "max": 3,
+      "min": 1
+    },
+    "videoTeaser": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teaser.video-teaser",
+      "required": true,
+      "max": 3
+    }
+  }
+}

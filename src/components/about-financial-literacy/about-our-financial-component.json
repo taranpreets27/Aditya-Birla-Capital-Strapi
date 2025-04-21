@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_about_financial_literacy_about_our_financial_components",
+  "info": {
+    "displayName": "About Our Financial Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "style-heading.style-heading",
+      "required": true,
+      "max": 3,
+      "min": 1
+    },
+    "descriptionText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "description.description",
+      "required": true
+    },
+    "tag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.feature-button",
+      "max": 6,
+      "required": false
+    },
+    "financialCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.content-card",
+      "max": 7
+    }
+  }
+}

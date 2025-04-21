@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cta_feature_buttons",
+  "info": {
+    "displayName": "Feature Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_platform_resources_platform_resources_components",
+  "info": {
+    "displayName": "Platform Resources Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "style-heading.style-heading",
+      "max": 3,
+      "required": true,
+      "min": 1
+    },
+    "resourceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.media-card",
+      "max": 6,
+      "required": true
+    }
+  }
+}

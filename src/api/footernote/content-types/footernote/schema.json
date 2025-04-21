@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "footernotes",
+  "info": {
+    "singularName": "footernote",
+    "pluralName": "footernotes",
+    "displayName": "Footer Note",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "copyRightText": {
+      "type": "string",
+      "required": true
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media.social-media"
+    }
+  }
+}
